@@ -37,7 +37,7 @@ section h2 {
 }
 
 .secao-bg-light {
-    background-color: #f8f9fa;
+    background-color: #f3f9ff;
     width: 100%;
 }
 
@@ -357,6 +357,51 @@ section h2 {
     background-image: url("image\ copy.png");
     background-position: right;
     color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-linear-2 {
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-linear-3 {
+    background-image: linear-gradient(to right, #f093fb, #f5576c, #ffd140);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-linear-diagonal {
+    background-image: linear-gradient(45deg, #FA8BFF, #2BD2FF, #2BFF88);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-radial {
+    background-image: radial-gradient(circle, #667eea, #764ba2);    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-complexo {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.grad-radial-complexo {
+    background-image: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);    color: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
