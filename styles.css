@@ -50,6 +50,15 @@ section h2 {
     padding: 0 20px;
 }
 
+.exemplo-grid-01 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+}
+
 .exemplo-grid h3 {
     color: rgb(106, 60, 133);
     margin-bottom: 15px;
@@ -245,4 +254,110 @@ section h2 {
 
 .linha-ampla {
     Line-height: 2.0
+}
+
+.card-bg-cor {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-bg-imagem {
+    background-color: #f8f9fa;
+    background-image: url("image.png");
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-bg-cover {
+    background-color: #f8f9fa;
+    background-image: url("image.png");
+    background-size: cover;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-bg-contain {
+    background-color: #f8f9fa;
+    background-image: url("image.png");
+    background-size: contain;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.exemplo-posicao {
+    padding: 30px 20px 20px 20px;
+}
+
+.posicao-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+}
+
+.exemplo-posicao h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 2.0rem;
+}
+
+.pos-item-bg-pos-center {
+    background-color: #f8f9fa;
+    background-image: url("image\ copy.png");
+    background-position: center;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pos-item-bg-pos-top {
+    background-color: #f8f9fa;
+    background-image: url("image\ copy.png");
+    background-position: top;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pos-item-bg-pos-bottom {
+    background-color: #f8f9fa;
+    background-image: url("image\ copy.png");
+    background-position: bottom;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pos-item-bg-pos-left {
+    background-color: #f8f9fa;
+    background-image: url("image\ copy.png");
+    background-position: left;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.pos-item-bg-pos-right {
+    background-color: #f8f9fa;
+    background-image: url("image\ copy.png");
+    background-position: right;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
