@@ -8,7 +8,6 @@ header {
     background-color: rgb(106, 60, 133);
     color: white;
     padding: 80px;
-    margin-bottom: 30px;
     text-align: center;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -16,7 +15,6 @@ header {
 
 header h1 {
     font-size: 48px;
-    margin-bottom: 16px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
@@ -26,8 +24,225 @@ header h1 {
     opacity: 0.9;
 }
 
-.container {
+section {
+    padding: 60px 120px 60px 120px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 46px;
+    color: rgb(106, 60, 133);
+    position: relative;
+}
+
+.secao-bg-light {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.exemplo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.exemplo-grid h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card-cor-nome {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-cor-nome p {
+    background-color: red;
+    color: white;
+}
+
+.card-cor-hex {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-cor-hex p {
+    color: #3498db;
+}
+
+.card-cor-rgb {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-cor-rgb p {
+    color: rgb(46, 204, 113);
+}
+
+.card-cor-rgba {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-cor-rgba p {
+    color: rgba(155, 89, 182, 0.7);
+}
+
+.card-cor-hsl {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card-cor-hsl p {
+    color: hsl(48, 89%, 60%)
+}
+
+.card-paleta-cores {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.paleta-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.f {
+    padding-left: 20px;
+}
+
+.s {
+    padding-right: 60px;
+}
+
+.paleta-grid li {
+    line-height: 1.5;
+}
+
+.tipo-exemplo-roboto {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tipo-exemplo-roboto h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.peso-light {
+    font-family: "Roboto", sans-serif;
+    Font-weight: lighter
+}
+
+.peso-normal {
+    font-family: "Roboto", sans-serif;
+    Font-weight: 400
+}
+
+.peso-bold {
+    font-family: "Roboto", sans-serif;
+    Font-weight: 700
+}
+
+.tipo-exemplo-playfair {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tipo-exemplo-playfair h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.tipo-exemplo-playfair p {
+    font-family: "Playfair", serif;
+    font-size: 28px;
+}
+
+.tipo-exemplo-sistema {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tipo-exemplo-sistema h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.tamanho-14 {
+    Font-size: 14px
+}
+
+.tamanho-16 {
+    Font-size: 16px
+}
+
+.tamanho-18 {
+    Font-size: 18px
+}
+
+.tamanho-24 {
+    Font-size: 24px
+}
+
+.tipo-exemplo-espacamento {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tipo-exemplo-espacamento h3 {
+    color: rgb(106, 60, 133);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.linha-compacta {
+    Line-height: 1.2
+}
+
+.linha-normal {
+    Line-height: 1.5
+}
+
+.linha-ampla {
+    Line-height: 2.0
 }
