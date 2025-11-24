@@ -13,12 +13,12 @@ Trabalhar com elementos visuais e design utilizando CSS3, explorando sistemas de
 ## ✅ Checklist da Atividade
 
 ### 1. Preparação do Ambiente
-- [ ] Realizar o fork deste repositório
+- [x] Realizar o fork deste repositório
   - ou
     - [ ] Clonar o repositório forkado para sua máquina, 
     - [ ] Abrir o projeto no editor de código
   - ou
-    - [ ] Usar o codespace para edição
+    - [x] Usar o codespace para edição
 - [ ] Construir a programação visual em style.css de acordo com as indicações abaixos
 
 ### 2. Sistemas de Cores em CSS
